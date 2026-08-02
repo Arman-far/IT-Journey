@@ -1,14 +1,14 @@
-\-- Git Commands
+\## Git Commands
 
 
 
-* Basic Commands
+\# Basic Commands
 
 
 
 \- git init
 
-\- git add . 
+\- git add .
 
 \- git add (file name)
 
@@ -18,8 +18,9 @@
 
 \- git push
 
-\- git pull 
-- git -v  
+\- git pull
+
+\- git -v
 
 \- git --version
 
@@ -29,7 +30,11 @@
 
 \- git log
 
-\- got ls-files
+\- git ls-files
+
+\- cd (location)
+
+\- mkdir (file name to create it)
 
 
 
@@ -37,28 +42,13 @@
 
 
 
-* newbuild git 
+\# newbuild git
 
 
 
 \- git config --global user.name "name"
 
-\- git config --global user.email "email" 
-- git remote add origin git@github.com:(site address)
+\- git config --global user.email "email"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\- git remote add origin git@github.com:(site address)
 
