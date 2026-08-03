@@ -62,5 +62,6 @@
 
 ### Words need to know : 
 - TCP = in Transport layer = Segment 
-- IP = in Network layer = Datagram
+- UDP = in Transport layer = Datagram
+- IP = in Network Layer = Packet 
 - LH = in Datalink Layer = Frame
