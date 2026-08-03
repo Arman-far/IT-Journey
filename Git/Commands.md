@@ -12,7 +12,7 @@
 
 \- git add (file name)
 
-\- git commit
+\- git commit -m
 
 \- git status
 
