@@ -1,14 +1,16 @@
-# TCP/IP (Transmission Control Protocol / Internet Protocol) is a standard set of communication rules that allows devices to communicate over a network .
----
+# TCP/IP (Transmission Control Protocol / Internet Protocol) is a standard set of communication rules that allows devices to communicate over a network.
+
+
 ## What is it ?
 - A protocol suite used for communication on the internet and most modern networks.
 ## What does it do ?
 - It  breaks data into packets, sends them to the correct destination, and ressembles them when they arrive.
 ## Why dows it exist ?
 - To provide a common standard so different devices andd operating systems can communicate reliably with each other.
----
-## TCP/IP-Layers :
 
+---
+
+## TCP/IP-Layers:
 ### Application :
 - Provide network services to applications and uses protocols like HTTP, HTTPS, DNS, FTP,... to communicate over the internet . ( makes data header )
 ### Transport :
@@ -19,8 +21,10 @@
 - Responsible for delivering data between devices on the same local network(MAC).It uses MAC Adress to identify devices and create frames fo transmision.( makes header and trailer )
 ### Physical :
 - Responsible for transmitting raw Bits(0and1) through the physical medium,such as cables or wireless signals.( transmit Data to 0 and 1 and sends )
+
 ---
-## Example for how TCP/IP works and show what it addes :
+
+## Example for how TCP/IP works and show what it addes:
 - searched : https://example.com/index.html
 ## Application_Layer:
 - Get/index.html              
@@ -53,13 +57,17 @@
 - FCS : ...                                           (Checkes the packet before sends it , if is there a problem => Drop and replace it )
 ## Physical_Layer :
 - Bits :...                                           (change whole packet to Bits,Fiber pulses or radio frequencys)
+
 ---
-## Encapsulation , Decapsulation : 
+
+## Encapsulation , Decapsulation: 
 - each layer add a header from 1 to 4 (5 is physical) then datalink layer encapsulating it and sends .
 - | Frame | Ip | TCP or UDP | Data | Frame |
      4      3        2         1       4         
+
 ---
-## Words need to know : 
+
+## Words need to know: 
 - TCP = in Transport layer = Segment 
 - UDP = in Transport layer = Datagram
 - IP = in Network Layer = Packet 
