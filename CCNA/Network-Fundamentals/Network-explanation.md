@@ -1,24 +1,11 @@
-###### \# what's a network ? 
-
-
-
+# what's a network ? 
 A network is a collection of **End-Systems(ES**) such as PCs , Servers , and phones connected through 
 **Intermediate-Systems(IS)** such as switches and routers to exchange data and share recourses using
 communication protocols.  
-
-
-
-\----------
-
-* ###### there are 2 models of transport models :
-
-
-
-**# OSI :** 
-
+---
+## there are 2 models of transport models :
+**OSI** 
 (academic model)
-
-
 
 7\. Application 
 
@@ -35,10 +22,7 @@ communication protocols.
 1. Physical
 
 
-
-\# TCP/IP : 
-
-
+**TCP/IP** 
 
 7\. Application 
 
