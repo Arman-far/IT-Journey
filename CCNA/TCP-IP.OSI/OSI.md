@@ -16,4 +16,4 @@
 2. Dataling :     MAC addressing and frame delivery
 1. Physical :     Transmits bits over cables or wireless signals
 
-! [OSI Model](E/Projects/Photos/OSI.png) 
+! [OSI](Images/OSI.png) 
